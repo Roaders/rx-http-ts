@@ -2,9 +2,12 @@
   "name": "rx-http-ts",
   "version": "1.0.1",
   "description": "Rx wrapper for node http rest operations with Typescript declarations",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc",
+    "typings": "typings install",
+    "build": "npm run typings && npm run compile"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/Roaders/rx-http-ts/issues"
   },
-  "homepage": "https://github.com/Roaders/rx-http-ts#readme"
+  "homepage": "https://github.com/Roaders/rx-http-ts#readme",
+  "dependencies": {
+    "rx": "^4.1.0",
+    "rx-node": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.10",
+    "typings": "^2.0.0"
+  }
 }

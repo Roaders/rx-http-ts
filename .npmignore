@@ -1,0 +1,6 @@
+node_modules/
+typings/
+src/
+.vscode/
+typings.json
+tsconfig.json
