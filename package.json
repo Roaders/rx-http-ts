@@ -1,0 +1,26 @@
+{
+  "name": "rx-http-ts",
+  "version": "1.0.1",
+  "description": "Rx wrapper for node http rest operations with Typescript declarations",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roaders/rx-http-ts.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "typescript",
+    "rx",
+    "rxjs"
+  ],
+  "author": "Giles Roadnight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Roaders/rx-http-ts/issues"
+  },
+  "homepage": "https://github.com/Roaders/rx-http-ts#readme"
+}
