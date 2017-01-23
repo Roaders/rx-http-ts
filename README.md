@@ -1,6 +1,8 @@
 # rx-http
-Rx wrapper for node http with typescript definitions
 
+[![Known Vulnerabilities](https://snyk.io/test/github/roaders/rx-http-ts/badge.svg)](https://snyk.io/test/github/roaders/rx-http-ts)
+
+Rx wrapper for node http with typescript definitions
 
 ```
 /**
