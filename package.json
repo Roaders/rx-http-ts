@@ -1,6 +1,6 @@
 {
   "name": "rx-http-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rx wrapper for node http rest operations with Typescript declarations",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
